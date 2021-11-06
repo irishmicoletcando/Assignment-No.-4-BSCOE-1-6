@@ -8,3 +8,4 @@ def ask_apples_and_oranges_number_to_compute_price():
     apple_price = 20 * apple_number
     orange_number = int(input("How many oranges do you want to buy? "))
     orange_price = 25 * orange_number
+    return apple_price, orange_price

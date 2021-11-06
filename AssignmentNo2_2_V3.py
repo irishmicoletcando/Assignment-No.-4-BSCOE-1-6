@@ -14,6 +14,8 @@ def show_total(apple, orange):
     apple_and_orange_total = apple + orange
     return apple_and_orange_total
 
+def display(totalamount):
+
 apple, orange = ask_apples_and_oranges_number_to_compute_price()
 total = show_total(apple, orange)
 display(total)

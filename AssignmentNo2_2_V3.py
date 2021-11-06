@@ -5,3 +5,4 @@
 
 def ask_apples_and_oranges_number_to_compute_price():
     apple_number = int(input("How many apples do you want to buy? "))
+    apple_price = 20 * apple_number

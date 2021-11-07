@@ -11,6 +11,7 @@ def money_apple_maxnumber_change():
     return max_number_apples, _change
 
 def display(maximum_apples, change_):
+    print(f"You can buy {maximum_apples} apples and your change is {change_: .2f} pesos.")
 
 
 maxi_apples, change = money_apple_maxnumber_change()

@@ -7,3 +7,4 @@ def money_apple_maxnumber_change():
     _money = float(input("How much money do you have? "))
     _apple = float(input("What is the price of an apple per piece? "))
     max_number_apples = int(_money // _apple)
+    _change = _money % _apple

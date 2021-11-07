@@ -9,3 +9,6 @@ def money_apple_maxnumber_change():
     max_number_apples = int(_money // _apple)
     _change = _money % _apple
     return _money, _apple, max_number_apples, _change
+
+
+money, apple, maxi_apples, change = money_apple_maxnumber_change()

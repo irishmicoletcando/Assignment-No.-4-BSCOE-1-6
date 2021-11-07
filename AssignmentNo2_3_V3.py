@@ -12,5 +12,6 @@ def money_apple_maxnumber_change():
 
 def display(maximum_apples, change_):
 
+
 maxi_apples, change = money_apple_maxnumber_change()
 display(maxi_apples, change)

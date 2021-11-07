@@ -12,3 +12,4 @@ def money_apple_maxnumber_change():
 
 
 money, apple, maxi_apples, change = money_apple_maxnumber_change()
+display(maxi_apples, change)

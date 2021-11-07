@@ -4,3 +4,4 @@
 # You can buy ___ apples and your change is ___ pesos.
 
 def money_apple_maxnumber_change():
+    _money = float(input("How much money do you have? "))
